@@ -251,3 +251,43 @@ body {
 .window-rounded svg#mountains.storm #strike-2 {
     animation: lightningAnimation 12s infinite ease-in-out;
 }
+@keyframes stormAnimation {
+    20% {
+        filter: contrast(1) grayscale(0.7) brightness(0.6);
+    }
+    21% {
+        filter: contrast(1) grayscale(0.7) brightness(1);
+    }
+    22% {
+        filter: contrast(1) grayscale(0.7) brightness(0.6);
+    }
+    80% {
+        filter: contrast(1) grayscale(0.7) brightness(0.6);
+    }
+    81% {
+        filter: contrast(1) grayscale(0.7) brightness(1);
+    }
+    82% {
+        filter: contrast(1) grayscale(0.7) brightness(0.6);
+    }
+}
+@keyframes stormAnimation2 {
+    20% {
+        filter: contrast(1) grayscale(0.7) brightness(0.6);
+    }
+    21% {
+        filter: contrast(1) grayscale(0.7) brightness(1);
+    }
+    22% {
+        filter: contrast(1) grayscale(0.7) brightness(0.6);
+    }
+    80% {
+        filter: contrast(1) grayscale(0.7) brightness(0.6);
+    }
+    81% {
+        filter: contrast(1) grayscale(0.7) brightness(1);
+    }
+    82% {
+        filter: contrast(1) grayscale(0.7) brightness(0.6);
+    }
+}
