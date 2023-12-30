@@ -72,3 +72,16 @@ body {
     2px -2px 1px 0px rgba(0, 0, 0, 0.2), 
     inset -3px 3px 2px 1px rgba(0, 0, 0, 0.5);
 }
+.outer-window.invert{
+    rotate: 180deg;
+    transform-origin: 50% 88%;
+    scale: 0.99;
+}
+.outer-window {
+    background: none;
+    width: calc(var(--init-size) * 0.83);
+    height: calc(var(--init-size) * 0.83 / 1.7);
+    overflow: hidden;
+    top: 4%;
+    bottom: unset;
+}
