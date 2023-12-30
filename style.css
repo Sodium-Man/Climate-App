@@ -340,3 +340,28 @@ body {
     animation: snowTransition 2s ease-in-out;
     filter: contrast(1) grayscale(0.5) brightness(1);
 }
+@keyframes snowTransition {
+    0% {
+        filter: contrast(1) grayscale(0.7) brightness(0.6);
+    }
+    100% {
+        filter: contrast(1) grayscale(0.5) brightness(1);
+    }
+}
+.window-rounded svg#mountains.snow #clouds,
+.window-rounded svg#mountains.snow #back-clouds-1,
+.window-rounded svg#mountains.snow #back-clouds-2,
+.window-rounded svg#mountains.snow #back-clouds-3 {
+    opacity: 1;
+    translate: 0 0%;
+}
+.window-rounded svg#mountains.snow #snow-1 {
+    transform: translateY(-200%) translateX(-2%);
+    animation: snowflakeAnimation 10s infinite ease-in-out !important;
+    opacity: 0;
+}
+.window-rounded svg#mountains.snow #snow-2 {
+    animation: snowflakeAnimation 11.3s infinite ease-in-out !important;
+    opacity: 0;
+    animation-delay: -5s !important;
+}
