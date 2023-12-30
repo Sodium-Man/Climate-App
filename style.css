@@ -853,3 +853,20 @@ g#rocket #thrusterflame{
         transform:  translateY(-70%)  translateX(60%) rotate(0deg) scale(0);
     }
 }
+g#monsterbody {
+    /* animation: monsterAnimation 24s infinite linear !important; */
+    opacity: 0;
+}
+@keyframes monsterAnimation {
+    0% {
+        opacity: 1;
+        translate: -30%;
+    }
+    100% {
+        opacity: 1;
+        translate: 50%;
+    }
+}
+g#biplane {
+    /* animation: biplaneAnimation 12s infinite linear !important; */
+}
